@@ -1,0 +1,180 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ad.app.ad.SplashActivity" >
+ <ScrollView 
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     >
+    <LinearLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:orientation="vertical"
+       >
+<LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       android:weightSum="2"
+        >
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:padding="@dimen/padding2"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+</LinearLayout>
+
+     </LinearLayout>
+     <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_weight="1"
+    android:padding="@dimen/padding2"
+    android:gravity="center"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+<TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frequent Question"
+        android:textStyle="bold"
+        android:textColor="@color/foter_menu_bg"
+        android:textSize="@dimen/textsize2"
+        />
+     </LinearLayout>
+      <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_weight="1"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+<LinearLayout 
+    android:id="@+id/q1"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/register__edit_text"
+    android:orientation="horizontal"
+    android:layout_margin="@dimen/padding2"
+    android:paddingLeft="@dimen/padding2"
+    android:weightSum="2"
+    android:gravity="center_vertical"
+        android:background="@drawable/whiteroundedbutton"
+    >
+   
+<TextView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+android:layout_weight="0.2"
+    android:text="A. What is my Product/service?"
+ android:textSize="@dimen/textsize3"
+    android:textColor="@color/white"
+    android:layout_margin="@dimen/padding2"
+    android:paddingLeft="@dimen/padding3"
+    />
+ <ImageView 
+     android:id="@+id/arro"
+        android:layout_width="fill_parent"
+        android:layout_weight="1.8"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrows_dwn"
+        />
+</LinearLayout>
+<LinearLayout 
+    android:id="@+id/lay1"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+  android:visibility="gone"
+    android:layout_height="wrap_content"
+  
+    >
+ 
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Coming soon new offeres for new User "
+        android:gravity="center"
+       
+        android:textSize="@dimen/textsize1"
+        android:textColor="@color/black"
+        />
+     
+</LinearLayout>
+
+
+<!--second offer layout  -->
+<LinearLayout 
+    android:id="@+id/lay2"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:visibility="gone"
+    android:layout_height="wrap_content"
+  
+    >
+ <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="About the Offer Details"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/textsize3"
+        android:textColor="@color/foter_menu_bg"
+        />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Coming soon new offeres for new User "
+        android:gravity="center"
+       
+        android:textSize="@dimen/textsize1"
+        android:textColor="@color/black"
+        />
+     
+</LinearLayout>
+
+
+<!--Threed offer layout  -->
+<LinearLayout 
+    android:id="@+id/lay3"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:visibility="gone"
+    android:layout_height="wrap_content"
+  
+    >
+ <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="About the Offer Details"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/textsize3"
+        android:textColor="@color/foter_menu_bg"
+        />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Coming soon new offeres for new User "
+        android:gravity="center"
+       
+        android:textSize="@dimen/textsize1"
+        android:textColor="@color/black"
+        />
+     
+</LinearLayout>
+
+
+
+
+</LinearLayout>
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/height"
+    ></LinearLayout>
+   </LinearLayout>
+   </ScrollView>
+</LinearLayout>

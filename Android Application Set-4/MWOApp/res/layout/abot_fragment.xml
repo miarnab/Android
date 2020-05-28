@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+
+android:background="@drawable/bg_hotelapp"
+    tools:context="com.ad.app.ad.SplashActivity" >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="32dp"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/aboutheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About breviSTAY"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize2"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/aboutbdy"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding1"
+        android:layout_marginTop="@dimen/padding2"
+        android:text="Hotel breviSTAY is located in the Delhi of the NCR on the very beautiful pebble beach and represents a perfect place for your holiday with several activities and relaxed wellness 
+ 
+This four-star hotel has 116 comfortably equipped rooms. The most rooms have a beautiful sea view. All rooms are modern and have air condition, balcony, mini bar, bathroom, hair dryer, SAT TV, safe, phone and internet access. Apart from the accommodation the hotel has aperitif and cocktail bar, restaurant with outdoor terrace with a magnificent view of the beautiful cove. The grate choice of Mediterranean delicacy and intimacy of a la carte restaurant Catena makes the gastronomic offer more attractive. Internet corner is at disposal to the quests in hotel lobby."
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize3"
+        android:textStyle="normal" />
+</LinearLayout>
+
+</RelativeLayout>

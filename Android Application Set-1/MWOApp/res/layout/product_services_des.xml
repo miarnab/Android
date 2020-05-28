@@ -1,0 +1,438 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ad.app.ad.SplashActivity" >
+
+   
+   
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="3"
+    android:orientation="vertical"
+    >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="2.3"
+        >
+        <FrameLayout 
+        android:layout_width="fill_parent"
+      
+        android:layout_height="fill_parent"
+        >
+<android.support.v4.view.ViewPager
+        android:id="@+id/myviewpager_product_details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+          
+        <LinearLayout
+            android:id="@+id/banner_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/header_height"
+            android:layout_gravity="bottom"
+
+            android:background="#65000000"
+            android:visibility="gone"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="FOOD BEVERAGE"
+                
+                android:textColor="@color/banner_text_color"
+                android:textSize="@dimen/textsize3"
+                android:textStyle="bold" />
+           <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="ENTERTAINMENT"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize3"
+                android:textStyle="bold" />
+        </LinearLayout>
+        
+    </FrameLayout>
+    </LinearLayout>
+  
+     <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center|top"
+        android:background="#E6E6E6"
+        android:layout_weight="0.7"
+        >
+         <ScrollView 
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       >
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/toolbar_dropshadow" />
+
+         <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:gravity="center|top"
+        android:weightSum="2"
+        android:layout_marginTop="@dimen/padding1"
+        android:background="#E6E6E6"
+        
+        >
+            <TextView
+                android:id="@+id/labletxt"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="Name of hotel and details >>"
+                android:layout_marginTop="@dimen/padding1"
+                android:textColor="@color/black"
+                
+                android:textSize="@dimen/textsize3"
+           />
+             <TextView
+                  android:id="@+id/labletxt1"
+                android:layout_width="fill_parent"
+                android:layout_marginRight="@dimen/padding2"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Chachi Ka Dhaba Plot no 106 G block Noida Uttar Pradesh"
+                android:layout_marginTop="@dimen/padding1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize1"
+                 />
+         </LinearLayout>
+         <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding2"
+            android:orientation="vertical"
+            >
+             <LinearLayout 
+                 android:layout_width="fill_parent"
+                 android:layout_height="@dimen/home_list_row_height"
+                 android:weightSum="8"
+                 android:background="@color/banner_text_color"
+                 android:padding="@dimen/padding2"
+                 android:orientation="horizontal">
+                 <ImageView 
+                     android:layout_width="fill_parent"
+                     android:layout_height="fill_parent"
+                     android:layout_weight="1"
+                     android:src="@drawable/hotelicons"
+                     />
+                   <ImageView 
+                     android:layout_width="fill_parent"
+                     android:layout_height="fill_parent"
+                     android:layout_weight="1"
+                     android:src="@drawable/hotelicons"
+                     />
+                     <ImageView 
+                     android:layout_width="fill_parent"
+                     android:layout_height="fill_parent"
+                     android:layout_weight="1"
+                     android:src="@drawable/hotelicons"
+                     />
+                       <ImageView 
+                     android:layout_width="fill_parent"
+                     android:layout_height="fill_parent"
+                     android:layout_weight="1"
+                     android:src="@drawable/hotelicons"
+                     />
+                         <ImageView 
+                     android:layout_width="fill_parent"
+                     android:layout_height="fill_parent"
+                     android:layout_weight="1"
+                     android:src="@drawable/hotelicons"
+                     />
+                           <ImageView 
+                     android:layout_width="fill_parent"
+                     android:layout_height="fill_parent"
+                     android:layout_weight="1"
+                     android:src="@drawable/hotelicons"
+                     />
+                             <ImageView 
+                     android:layout_width="fill_parent"
+                     android:layout_height="fill_parent"
+                     android:layout_weight="1"
+                     android:src="@drawable/hotelicons"
+                     />
+                               <ImageView 
+                     android:layout_width="fill_parent"
+                     android:layout_height="fill_parent"
+                     android:layout_weight="1"
+                     android:src="@drawable/hotelicons"
+                     />
+             </LinearLayout>
+              <LinearLayout 
+                 android:layout_width="fill_parent"
+                 android:layout_height="@dimen/home_list_row_height"
+                 android:weightSum="2"
+        
+                 android:orientation="horizontal">
+                               <TextView 
+                                   android:id="@+id/labletxt2"
+                                   android:layout_width="fill_parent"
+								android:layout_weight="1.4"
+								android:gravity="center_vertical"
+								android:paddingLeft="@dimen/padding2"
+									android:layout_height="fill_parent"
+									android:text="01/01/2016 04:00PM"/>
+                                 <LinearLayout
+              android:layout_width="fill_parent"
+								android:layout_weight="0.6"
+             android:layout_height="fill_parent"
+            android:weightSum="4"
+            android:padding="@dimen/padding1"
+             android:gravity="center"
+             android:orientation="horizontal" >
+
+             <TextView
+                 android:id="@+id/raund11"
+                 android:layout_width="fill_parent"
+                 android:layout_weight="1"
+                 android:layout_height="fill_parent"
+                 android:background="@drawable/white_circilraunded"
+                 android:gravity="center"
+                 android:text="3"
+                 android:textColor="@color/white"
+                 android:textSize="@dimen/textsize1" />
+
+            <TextView
+                android:id="@+id/raund21"
+                 android:layout_width="fill_parent"
+                 android:layout_weight="1"
+                 android:layout_height="fill_parent"
+                 android:background="@drawable/white_circilraunded"
+                 android:gravity="center"
+                 android:text="6"
+                 android:textColor="@color/white"
+                 android:textSize="@dimen/textsize1" />
+
+            <TextView
+                android:id="@+id/raund31"
+                 android:layout_width="fill_parent"
+                 android:layout_weight="1"
+                 android:layout_height="fill_parent"
+                 android:background="@drawable/white_circilraunded"
+                 android:gravity="center"
+                 android:text="12"
+                 android:textColor="@color/white"
+                 android:textSize="@dimen/textsize1" />
+
+          <TextView
+              android:id="@+id/raund41"
+                 android:layout_width="fill_parent"
+                 android:layout_weight="1"
+                 android:layout_height="fill_parent"
+                 android:background="@drawable/white_circilraunded"
+                 android:gravity="center"
+                 android:text="24"
+                 android:textColor="@color/white"
+                 android:textSize="@dimen/textsize1" />
+         </LinearLayout>
+                               </LinearLayout>
+                               <LinearLayout 
+                 android:layout_width="fill_parent"
+                 android:layout_height="@dimen/home_list_row_height"
+                 android:weightSum="2"
+        android:paddingLeft="@dimen/padding1"
+                 android:orientation="horizontal">
+                                 <LinearLayout 
+                                     android:layout_width="fill_parent"
+                                     android:layout_height="fill_parent"
+                                     android:orientation="horizontal"
+                                     android:layout_weight="1"
+                                     android:weightSum="2"
+                                     >
+                               <TextView 
+                                   android:id="@+id/labletxt3"
+                                   android:layout_width="fill_parent"
+								android:layout_weight="1"
+								android:paddingLeft="@dimen/padding2"
+								android:gravity="center_vertical"
+								android:textSize="@dimen/textsize3"
+									android:layout_height="fill_parent"
+									android:text="Select person"/>
+                               <Spinner 
+                                   android:id="@+id/person"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="@dimen/height5"
+            
+            android:background="@drawable/spinner_style"
+            />
+                               </LinearLayout>
+                                 <LinearLayout
+              android:layout_width="fill_parent"
+								android:layout_weight="1"
+             android:layout_height="fill_parent"
+            android:weightSum="2"
+               android:paddingRight="@dimen/padding1"
+             android:gravity="center"
+             android:orientation="horizontal" >
+ <TextView 
+     android:id="@+id/labletxt8"
+                                   android:layout_width="fill_parent"
+								android:layout_weight="1"
+								android:gravity="center"
+									android:textSize="@dimen/textsize1"
+									android:layout_height="fill_parent"
+									android:text="Select Room"/>
+                               <Spinner 
+                                   android:id="@+id/roomselect"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="@dimen/height5"
+            
+            android:background="@drawable/spinner_style"
+            />
+         </LinearLayout>
+         
+                               </LinearLayout>
+                                <LinearLayout 
+                 android:layout_width="fill_parent"
+                 android:layout_height="@dimen/home_list_row_height"
+                 android:weightSum="2"
+        android:paddingLeft="@dimen/padding1"
+                 android:orientation="horizontal">
+                                 <LinearLayout 
+                                     android:layout_width="fill_parent"
+                                     android:layout_height="fill_parent"
+                                     android:orientation="horizontal"
+                                     android:layout_weight="1"
+                                     android:weightSum="2"
+                                     >
+                               <RadioGroup 
+                                   android:layout_width="fill_parent"
+                                   android:layout_height="wrap_content"
+                                   android:orientation="vertical"
+                                   
+                                   >
+                                   <RadioButton 
+                                       android:id="@+id/labletxt4"
+                                       android:layout_width="fill_parent"
+                                       android:layout_height="50dp"
+                                       android:textSize="@dimen/textsize3"
+                                    
+                                       android:text="6,500 INR / 2 Person"
+                                     
+                                       />
+                                  
+                                  
+                               </RadioGroup>
+                               
+                               </LinearLayout>
+                              </LinearLayout>
+                              </LinearLayout>
+                              <LinearLayout 
+                                   android:layout_width="fill_parent"
+                                   android:layout_height="wrap_content"
+                                    android:paddingLeft="@dimen/padding2"
+                                   android:orientation="vertical"
+                                   >
+                                    <RadioGroup 
+                                       android:layout_width="fill_parent"
+                                       android:weightSum="2"
+                                       android:layout_height="wrap_content"
+                                       android:orientation="horizontal"
+                                       >
+                                        <RadioButton 
+                                            android:id="@+id/labletxt6"
+                                       android:layout_width="fill_parent"
+                                       android:layout_height="50dp"
+                                       
+                                       android:layout_marginLeft="@dimen/padding1"
+                                       android:layout_weight="1"
+                                       android:textSize="@dimen/textsize1"
+                                       android:text="Booking for Myself"
+                                     
+                                       />
+                                         <RadioButton 
+                                             android:id="@+id/labletxt5"
+                                       android:layout_width="fill_parent"
+                                    android:layout_marginRight="@dimen/padding2"
+                                       android:layout_weight="1"
+                                       android:layout_height="wrap_content"
+                                       android:textSize="@dimen/textsize1"
+                                       android:text="Booking for Friend and Family "
+                                     
+                                       />
+                                         </RadioGroup>
+                                        
+                                             <CheckBox 
+                                                 android:id="@+id/checkterms"
+                                                 android:layout_width="fill_parent"
+                                                 android:layout_height="wrap_content"
+                                                 android:layout_marginLeft="@dimen/padding1"
+                                                 android:text="Terms of boking"
+                                                 />
+                                
+                                             <LinearLayout 
+                                                 android:layout_width="fill_parent"
+                                                 android:layout_height="wrap_content"
+                                                 android:orientation="horizontal"
+                                                 android:layout_weight="2"
+                                                 >
+                                                 <Button 
+                                                     android:layout_width="fill_parent"
+                                                     android:layout_height="@dimen/header_height"
+                                                     android:layout_weight="1.2"
+                                                     android:gravity="center"
+                                                     android:textSize="@dimen/textsize3"
+                                                     android:textColor="@color/white"
+                                                     android:text="Cancel booking"
+                                                     android:background="@drawable/cancel_button_style2"
+                                                     />
+                                                 <Button 
+                                                     android:id="@+id/bookingbtn"
+                                                     android:layout_width="fill_parent"
+                                                     android:layout_height="@dimen/header_height"
+                                                     android:layout_weight="0.8"
+                                                    
+                                                     android:gravity="center"
+                                                     android:textSize="@dimen/textsize3"
+                                                     android:layout_marginRight="@dimen/padding2"
+                                                     android:textColor="@color/white"
+                                                     android:text="Booking Now INR 6,500/-"
+                                                     android:background="@drawable/button_style2"
+                                                     />
+                                             </LinearLayout>   
+                                             <LinearLayout 
+                                                 android:layout_width="fill_parent"
+                                                 android:layout_height="@dimen/height"
+                                                 ></LinearLayout> 
+             </LinearLayout>
+         </LinearLayout>
+          </ScrollView>
+     </LinearLayout>
+    
+      <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.3"
+        android:visibility="gone"
+        >
+      </LinearLayout>
+</LinearLayout>
+   
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resources>  
+    <string name="app_name">Calculator</string>     
+    <string name="action_settings">Settings</string>     
+    <string name="example_button">Example showing Button</string>     
+    <string name="enter_text1"/>     
+    <string name="enter_text2"/>     
+    <string name="enter_text3"/>     
+    <string name="click_button1"> + </string>
+    <string name="click_button2"> * </string>
+    <string name="click_button3"> / </string>
+    <string name="click_button4"> - </string>
+    <string name="click_button5"> ^0.5 </string>
+    <string name="click_button6"> ^2 </string>
+    <string name="click_button7"> ^0.33 </string>
+    <string name="click_button8"> ^3 </string>
+    
+    
+</resources> 

@@ -1,0 +1,194 @@
+ <RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="match_parent"
+ android:orientation="vertical"
+ android:background="@drawable/bkimg"
+    android:layout_height="match_parent"
+        >
+         <include
+      android:layout_width="wrap_content"
+      android:id="@+id/headerlayou"
+                android:layout_height="wrap_content"
+       layout="@layout/herader_lay" 
+      />
+
+ <android.support.v4.widget.DrawerLayout
+   
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+android:layout_below="@+id/headerlayou"
+    android:layout_height="match_parent">
+     <LinearLayout 
+         android:layout_width="match_parent"
+ android:orientation="vertical"
+  android:weightSum="2"
+    android:layout_height="match_parent"
+        >
+ 
+  
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Listview to display slider menu -->
+    
+    </LinearLayout>
+    <ListView
+        android:id="@+id/list_slidermenu"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:background="@color/drawer_color"
+        android:layout_gravity="left"
+        android:choiceMode="singleChoice"
+       android:divider="@null"
+            
+android:dividerHeight="0dp"
+       />
+</android.support.v4.widget.DrawerLayout>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/header_height"
+    android:layout_alignParentBottom="true"
+      android:visibility="gone"
+    android:layout_alignParentLeft="true"
+    android:orientation="vertical"
+    android:layout_weight="1.3" >
+<View 
+    android:layout_width="fill_parent"
+    android:layout_height="2dp"
+    android:background="@drawable/toolbar_dropshadow"
+    />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.5"
+      
+        android:background="@color/foter_menu_bg"
+        android:orientation="horizontal"
+        android:weightSum="5" >
+
+        <LinearLayout
+             android:id="@+id/homeTab"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/homeimg"
+                android:layout_width="@dimen/margin2"
+                android:layout_height="@dimen/margin2"
+                android:src="@drawable/home" />
+
+            <TextView
+                android:id="@+id/hometxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Home"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+             android:id="@+id/guidTab"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="@dimen/margin2"
+                android:layout_height="@dimen/margin2"
+                android:src="@drawable/guid" />
+
+            <TextView
+                android:id="@+id/guidtxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Guids"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize1"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+             android:id="@+id/aroundMeTab"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="@dimen/margin2"
+                android:layout_height="@dimen/margin2"
+                android:src="@drawable/aroundicon" />
+
+            <TextView
+                android:id="@+id/aroundmetxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Around Me"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize1"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/accountTab"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="@dimen/margin2"
+                android:layout_height="@dimen/margin2"
+                android:src="@drawable/usericon" />
+
+            <TextView
+                android:id="@+id/accounttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Account"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize1"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/viewTab"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/viewimg"
+                android:layout_width="@dimen/margin2"
+                android:layout_height="@dimen/margin2"
+                android:layout_marginLeft="@dimen/padding1"
+                android:src="@drawable/view_1" />
+
+            <TextView
+                android:id="@+id/viewtxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="View"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize1"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+</RelativeLayout>

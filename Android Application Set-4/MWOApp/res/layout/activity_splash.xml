@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+   android:gravity="center"
+android:background="@drawable/bk"
+    tools:context="com.ad.app.ad.SplashActivity" >
+<ImageView
+    android:layout_width="@dimen/logowidth"
+    android:layout_height="@dimen/logowidth"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="151dp"
+    android:visibility="gone"
+    android:src="@drawable/hotelicons" />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Animation/gen"/>
+	<classpathentry kind="src" path="Animation/src"/>
+	<classpathentry kind="lib" path="Animation/bin/dexedLibs/android-support-v4-1912308fb7960aeea60bc64a0381361b.jar"/>
+	<classpathentry kind="lib" path="Animation/bin/dexedLibs/android-support-v4-1b78b6cf7db3162ae95f3c42354ef1fe.jar"/>
+	<classpathentry kind="lib" path="Animation/bin/dexedLibs/android-support-v4-a1de828dd28a7bc616d12510d8d65579.jar"/>
+	<classpathentry kind="lib" path="Animation/libs/android-support-v4.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="Animation/bin/classes"/>
+</classpath>

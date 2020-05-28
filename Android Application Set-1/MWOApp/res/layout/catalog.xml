@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#ffffff">
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:orientation="horizontal"
+    android:layout_height="50dp"
+    android:weightSum="2"
+    android:gravity="right|center"
+    android:background="@color/header_color"
+    >
+   
+    <TextView android:id="@+id/TextView01" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textColor="@color/black"
+		android:layout_weight="0.5"
+		android:textSize="24dip" android:layout_margin="5dip" android:text="Products"></TextView>
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_weight="1.5"
+        android:layout_marginRight="10dp"
+        android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/ButtonViewCart1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/commerc" />
+
+    <TextView
+        android:id="@+id/cartno"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:text="1"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/radi" />
+
+    </RelativeLayout>
+</LinearLayout>
+	
+	<ListView android:layout_height="wrap_content"
+		android:layout_weight="1" android:id="@+id/ListViewCatalog"
+		android:layout_width="fill_parent" android:background="#ffffff"
+		android:clickable="true" android:cacheColorHint="#ffffff">
+	</ListView>
+	<Button android:layout_width="wrap_content"
+	    android:visibility="gone"
+		android:layout_height="wrap_content" android:layout_margin="5dip"
+		android:layout_gravity="right" android:id="@+id/ButtonViewCart"
+		android:text="View Shopping Cart"></Button>
+</LinearLayout>

@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bkimg"
+    tools:context="com.ad.app.ad.SplashActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="fill_parent"
+            android:layout_height="44dp"
+            android:background="#00000000"
+            android:drawableLeft="@drawable/user"
+            android:hint="Email"
+            android:singleLine="true"
+            android:paddingLeft="@dimen/padding2" >
+
+            <requestFocus />
+        </EditText>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/black" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="fill_parent"
+            android:layout_height="44dp"
+            android:background="#00000000"
+            android:drawableLeft="@drawable/pass"
+            android:hint="Password"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:paddingLeft="@dimen/padding2" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/loginbtn"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/height2"
+            android:layout_marginTop="@dimen/padding2"
+            android:background="@drawable/button_style2"
+            android:gravity="center"
+            android:text="Log In"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize3" />
+
+        <TextView
+            android:id="@+id/signbtn"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/height2"
+            android:layout_marginTop="@dimen/margin10"
+            android:gravity="center"
+            android:text="SignUp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize2" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="@dimen/logowidth"
+        android:layout_height="@dimen/logowidth"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:src="@drawable/ic_launcher" />
+
+</RelativeLayout>

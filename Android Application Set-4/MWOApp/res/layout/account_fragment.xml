@@ -1,0 +1,230 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_hotelapp"
+    tools:context="com.ad.app.ad.SplashActivity" >
+ <ScrollView 
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     >
+    <LinearLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:orientation="vertical"
+       >
+<LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       android:weightSum="2"
+        >
+       
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_weight="1"
+    android:padding="@dimen/padding2"
+    android:gravity="center"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView 
+          android:id="@+id/bookingheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Booking Details"
+        android:textStyle="bold"
+        android:textColor="@color/foter_menu_bg"
+        android:textSize="@dimen/textsize2"
+        />
+     <TextView 
+         android:id="@+id/bookingtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Noida sector 63, G-Block plot no 1000"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize3"
+        />
+</LinearLayout>
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:padding="@dimen/padding2"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView 
+          android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Booking Price"
+        android:textStyle="bold"
+        android:textColor="@color/foter_menu_bg"
+   android:textSize="@dimen/textsize2"
+        />
+     <TextView 
+           android:id="@+id/bookingaddresstxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Final price 6,500 "
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize3"
+        />
+</LinearLayout>
+
+     </LinearLayout>
+     <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_weight="1"
+    android:padding="@dimen/padding2"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+<TextView 
+    android:id="@+id/contactdetailstxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Details"
+        android:textStyle="bold"
+        android:textColor="@color/foter_menu_bg"
+         android:textSize="@dimen/textsize2"
+        />
+     </LinearLayout>
+     
+     <LinearLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:weightSum="2"
+         >
+      <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_weight="1"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+<TextView 
+    android:id="@+id/conatctname"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/register__edit_text"
+ android:text="Name"
+  
+    android:layout_margin="@dimen/padding1"
+    android:paddingLeft="@dimen/padding3"
+    />
+<TextView 
+       android:id="@+id/conatctno"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/register__edit_text"
+ android:text="Contacts"
+  
+    android:layout_margin="@dimen/padding1"
+    android:paddingLeft="@dimen/padding3"
+    />
+<TextView 
+       android:id="@+id/conatctmail"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/register__edit_text"
+ android:text="Email"
+  
+    android:layout_margin="@dimen/padding1"
+    android:paddingLeft="@dimen/padding3"
+    />
+</LinearLayout>
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:paddingRight="@dimen/padding2"
+    android:orientation="vertical"
+    >
+    <Spinner 
+         android:id="@+id/idprof"
+            android:layout_width="fill_parent"
+     
+            android:layout_height="@dimen/height5"
+            
+            android:background="@drawable/spinner_style"
+            />
+    <TextView 
+       
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:text="Browse file"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/padding1"
+        android:gravity="center"
+        android:background="@drawable/dialogradius"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize1"
+        />
+</LinearLayout>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+     >
+    <TextView 
+        android:id="@+id/puposebokingtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Purpose boking "
+        android:textStyle="bold"
+        android:layout_margin="@dimen/padding1"
+        android:textColor="@color/foter_menu_bg"
+        android:textSize="@dimen/textsize2"
+        />
+    <EditText 
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/row_height"
+    android:background="@drawable/dialogradius"
+    android:hint="Message "
+    android:inputType="textMultiLine"
+    android:layout_margin="@dimen/padding1"
+    android:paddingLeft="@dimen/padding3"
+    />
+    <TextView 
+        android:id="@+id/othertxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Offers"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/padding2"
+        android:layout_margin="@dimen/padding1"
+        android:textColor="@color/foter_menu_bg"
+        android:textSize="@dimen/textsize2"
+        />
+    <EditText 
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/row_height"
+    android:background="@drawable/dialogradius"
+    android:hint="Promotion code "
+    android:inputType="textMultiLine"
+    android:layout_margin="@dimen/padding1"
+    android:paddingLeft="@dimen/padding3"
+    />
+    <Button 
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/register__edit_text"
+    android:background="@drawable/button_style2"
+    android:text="Confirm payment"
+    android:layout_marginTop="@dimen/padding2"
+    android:textColor="@color/white"
+    android:layout_margin="@dimen/padding1"
+    android:paddingLeft="@dimen/padding3"
+    />
+</LinearLayout>
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/height"
+    ></LinearLayout>
+   </LinearLayout>
+   </ScrollView>
+</LinearLayout>

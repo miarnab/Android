@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    
+    tools:context="com.ad.app.ad.SplashActivity" >
+   
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="3"
+    android:layout_marginLeft="@dimen/padding2"
+    android:layout_marginRight="@dimen/padding2"
+    android:orientation="vertical"
+    >
+     <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.7"
+        >
+         
+         <RelativeLayout 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+       
+             android:weightSum="2"
+             >
+             
+            
+
+                  <ImageView 
+                 android:id="@+id/img"
+                 android:layout_width="fill_parent"
+                 android:layout_weight="0.6"
+                 android:scaleType="fitXY"
+               
+                 android:layout_height="@dimen/margin8"
+                 android:src="@drawable/greenvag"
+                 />
+
+             <LinearLayout
+                 android:layout_width="fill_parent"
+                 android:layout_height="@dimen/margin2"
+                 android:layout_alignBottom="@+id/img"
+                 android:layout_alignParentLeft="true"
+                 android:layout_weight="1.4"
+                 android:background="#65000000"
+                 android:gravity="center_vertical"
+                 android:weightSum="3" >
+
+                 <TextView
+                     android:id="@+id/prodctname"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="@dimen/padding2"
+                     android:layout_weight="1.1"
+                     android:textStyle="bold"
+                     android:gravity="center"
+                     android:text=" Green vag."
+                     android:textColor="@color/white"
+                     android:textSize="@dimen/textsize3" />
+
+                 <TextView
+                     android:id="@+id/adcutry"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1.1"
+                     android:visibility="gone"
+                     android:text="Country: india"
+                     android:textColor="@color/white"
+                     android:textSize="@dimen/textsize3" />
+
+                 <LinearLayout
+                     android:layout_width="fill_parent"
+                     android:layout_height="fill_parent"
+                     android:layout_weight="0.8" >
+
+                    <RatingBar android:id="@+id/ratingbar"
+android:layout_width="fill_parent"
+android:visibility="gone"
+                                style="@style/customRatingBar"
+android:layout_height="fill_parent" />
+                 </LinearLayout>
+             </LinearLayout>
+
+         </RelativeLayout>
+         
+     </LinearLayout>
+</LinearLayout>
+   <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"
+                android:background="@drawable/sdo" />
+</LinearLayout>

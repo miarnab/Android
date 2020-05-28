@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ad.app.ad.SplashActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/row_height"
+        android:background="@color/header_color"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <ImageView
+            android:id="@+id/drawer_icon1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="@dimen/padding2"
+            android:layout_weight="1.7"
+            android:src="@drawable/menuicons" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.3"
+            android:orientation="horizontal"
+            android:gravity="left|center" >
+ <ImageView
+                android:id="@+id/menuopt1"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:scaleType="fitCenter"
+               
+                android:src="@drawable/ic_launcher" />
+
+ <ImageView
+     android:id="@+id/menuopt"
+     android:layout_width="@dimen/font_size2"
+     android:layout_height="@dimen/margin2"
+     android:layout_alignParentRight="true"
+     android:layout_centerVertical="true"
+     android:layout_margin="@dimen/padding3"
+     android:src="@drawable/menuoptn" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="6dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:background="@drawable/sdo" />
+
+</RelativeLayout>

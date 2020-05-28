@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resources>  
+    <string name="app_name">Additions</string>     
+    <string name="action_settings">Settings</string>     
+    <string name="example_button">Example showing Button</string>     
+    <string name="enter_text1"/>     
+    <string name="enter_text2"/>     
+    <string name="enter_text3"/>     
+    <string name="click_button">Calculate addition of 3 numbers</string>  
+</resources> 

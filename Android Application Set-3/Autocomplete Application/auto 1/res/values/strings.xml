@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+     
+   <string name="app_name">Auto</string>    
+   <string name="action_settings">Settings</string>    
+   <string name="hello_world">Hello world!</string>    
+   <string name="auto_complete">AutoComplete</string>    
+   <string name="multi_auto_complete">Multi AutoComplete</string>    
+   <string-array name="list_of_countries">       
+       <item >Vaibhav Gupta</item>       
+       <item >Arnab Mitra</item>       
+       <item >Titas Mukherjee</item>       
+       <item >Utsanita Kundu</item>       
+       <item >Zohhak Rameez</item>       
+       <item >Sudip Poray</item>       
+       <item >Subhajeet Roy</item>       
+       <item >Sudipta Chakraborty</item>       
+       <item >Sayan Chowdhury</item>
+       <item>Sayantan Sarkar</item>
+       <item>Sayantan Chowdhury</item>
+       <item>Ria Jesmin</item>
+       <item>Rishab Paul</item>
+       <item>Ritam Ghosh</item>
+       <item>Ritesh</item>
+       <item>Sambaran Maity</item>
+       <item>Saroj Srivastava</item>
+       <item>Saurav Kumar Bose</item>
+       <item>Saurav Bharadwaj</item>
+       <item>Sayan Roy</item>
+       <item>Shibangi Gupta</item>
+       <item>Satya Raj</item>
+       <item>Shaswata Adhikary</item>
+       <item>Subhasayan Das</item>
+       <item>Shouvik Roy</item>
+       <item>Shubho Sarkar</item>
+       <item>Sohom Bhattacharya</item>
+       <item>Sourav Roy</item>
+       <item>Sourav Pal</item>
+       <item>Sourav Singha</item>
+       <item>Sristi Jaiswal</item>
+       <item>Souvik Sarkar</item>
+       <item>Subhodeep Dutta</item>
+       <item>Subhajeet Mondal</item>
+       <item>Sudip Kundu</item>
+       <item>Subham Mundra</item>
+       <item>Suraj Kumar</item>
+       <item>Supriyo Kumar Patra</item>
+       <item>Sutanu Kha</item>
+       <item>Swastik Paul</item>
+       <item>Syed Asif Javed</item>
+       <item>Tanmoy Bhattacharya</item>
+       <item>Tirthadeep Ghosh</item>
+       <item>Ujjwal Pandey</item>
+       <item>Priyotosh Kumar Singh</item>
+       <item>Anyatama Ghosh</item>
+       <item>Solanki Das</item>
+       <item>Anindya Sankar Das</item>
+       <item>Kinjal Mitra</item>
+       <item>Agniva Majumdar</item>
+       <item>Vivek Kumar</item>       
+       </string-array>
+         
+</resources>

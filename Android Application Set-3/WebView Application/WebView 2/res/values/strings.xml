@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<resources> 
+    <string name="app_name">WebView</string> 
+    <string name="action_settings">Settings</string> 
+    <string name="enter">Enter the phone number here</string>
+    <string name="browse">Browse</string>
+    <string-array name="list_of_websites">
+    <item >http://www.google.com</item>
+    <item >http://www.microsoft.com</item>
+    <item >http://www.facebook.com</item>
+    <item>http://www.bppimt.ac.in</item>
+    <item>http://www.flipkart.com</item>
+    <item >http://www.wbutech.net</item>
+    </string-array>
+    
+    
+    </resources>

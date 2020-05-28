@@ -1,0 +1,163 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ad.app.ad.SplashActivity" >
+ <ScrollView 
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     >
+    <LinearLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:orientation="vertical"
+       >
+<LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       android:weightSum="2"
+        >
+       
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_weight="1"
+    android:padding="@dimen/padding2"
+    android:gravity="center"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textStyle="bold"
+        android:textColor="@color/foter_menu_bg"
+        android:textSize="@dimen/textsize2"
+        />
+     <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Noida sector 63, G-Block plot no 1000"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize3"
+        />
+</LinearLayout>
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:padding="@dimen/padding2"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact No"
+        android:textStyle="bold"
+        android:textColor="@color/foter_menu_bg"
+        android:textSize="@dimen/textsize2"
+        />
+     <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+918285672453"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize3"
+        />
+</LinearLayout>
+
+     </LinearLayout>
+     <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_weight="1"
+    android:padding="@dimen/padding2"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+<TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email ID"
+        android:textStyle="bold"
+        android:textColor="@color/foter_menu_bg"
+        android:textSize="@dimen/textsize2"
+        />
+<TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="info@successsign.com"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize3"
+        />
+<TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nirbhay@successsign.com"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize3"
+        />
+     </LinearLayout>
+      <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_weight="1"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+<EditText 
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/register__edit_text"
+    android:background="@drawable/dialogradius"
+    android:hint="Name"
+    android:layout_margin="@dimen/padding2"
+    android:paddingLeft="@dimen/padding3"
+    />
+<EditText 
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/register__edit_text"
+    android:background="@drawable/dialogradius"
+    android:hint="Contact "
+    android:layout_margin="@dimen/padding2"
+    android:paddingLeft="@dimen/padding3"
+    />
+<EditText 
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/register__edit_text"
+    android:background="@drawable/dialogradius"
+    android:hint="Email "
+    android:layout_margin="@dimen/padding2"
+    android:paddingLeft="@dimen/padding3"
+    />
+<EditText 
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/register__edit_text"
+    android:background="@drawable/dialogradius"
+    android:hint="Message"
+    android:layout_margin="@dimen/padding2"
+    android:paddingLeft="@dimen/padding3"
+    />
+<Button 
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/register__edit_text"
+    android:background="@drawable/button_style2"
+    android:text="SEND"
+    android:textColor="@color/white"
+    android:layout_margin="@dimen/padding2"
+    android:paddingLeft="@dimen/padding3"
+    />
+</LinearLayout>
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/height"
+    ></LinearLayout>
+   </LinearLayout>
+   </ScrollView>
+</LinearLayout>

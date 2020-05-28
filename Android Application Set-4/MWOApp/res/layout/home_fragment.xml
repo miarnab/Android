@@ -1,0 +1,265 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/bg_hotelapp"
+    tools:context="com.mwo.app.SplashActivity" >
+    
+    <include
+      android:layout_width="wrap_content"
+      android:id="@+id/fargemttb"
+                android:layout_height="wrap_content"
+       layout="@layout/fragment_header" 
+      />
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/fargemttb"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        
+
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="3"
+    >
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/activity_horizontal_margin"
+    >
+    <TextView 
+        android:id="@+id/hotelnow"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/margin1"
+        android:text="HOTEL FOR YOU NOW"
+        android:textColor="@color/white"
+        android:layout_marginLeft="@dimen/padding3"
+        android:layout_marginRight="@dimen/padding3"
+        android:gravity="center"
+        android:textSize="@dimen/textsize2"
+        android:background="@color/banner_text_color"
+        />
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/tab_hight"
+        android:gravity="center"
+         android:layout_marginLeft="@dimen/padding3"
+        android:layout_marginRight="@dimen/padding3"
+                android:layout_marginTop="@dimen/padding2"
+            android:background="@drawable/dialogradius"
+        android:orientation="horizontal"
+        >
+
+    <ImageView
+        android:layout_width="@dimen/margin2"
+        android:layout_height="@dimen/margin2"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/padding2"
+        android:src="@drawable/bluearound" />
+
+    <Button
+        android:id="@+id/myloc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="49dp"
+        android:background="#00000000"
+        android:gravity="center"
+        android:text="My Current Location"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize3" />
+
+    </RelativeLayout>
+     <TextView 
+         android:id="@+id/txt"
+        android:layout_width="@dimen/popupheight"
+        android:layout_height="@dimen/height2"
+        android:text="How long you'll need the room for?"
+        android:textColor="@color/banner_text_color"
+        android:gravity="center"
+        android:textSize="@dimen/textsize3"
+ 
+        />
+
+         <RelativeLayout
+             android:layout_width="@dimen/boq_popw"
+             android:layout_height="@dimen/tab_hight"
+             android:layout_marginTop="@dimen/padding1"
+             android:gravity="center"
+             android:layout_marginLeft="@dimen/padding3"
+        android:layout_marginRight="@dimen/padding3"
+
+             android:orientation="horizontal" >
+
+             <TextView
+             android:id="@+id/raund2"
+                 android:layout_width="@dimen/height2"
+                 android:layout_height="@dimen/height2"
+                 android:layout_alignParentBottom="true"
+                 android:layout_alignParentRight="true"
+                 android:layout_marginRight="27dp"
+                android:background="@drawable/white_circilraunded"
+                 android:gravity="center"
+                 android:text="24"
+               android:textColor="@color/white"
+                 android:textSize="@dimen/textsize3" />
+
+             <TextView
+                 android:id="@+id/raund4"
+                 android:layout_width="@dimen/height2"
+                 android:layout_height="@dimen/height2"
+                 android:layout_alignParentTop="true"
+                 android:layout_marginLeft="18dp"
+                 android:layout_toRightOf="@+id/raund3"
+                 android:background="@drawable/white_circilraunded"
+                 android:gravity="center"
+                 android:text="12"
+                 android:textColor="@color/white"
+                 android:textSize="@dimen/textsize3" />
+
+             <TextView
+                 android:id="@+id/raund1"
+                 android:layout_width="@dimen/height2"
+                 android:layout_height="@dimen/height2"
+                 android:layout_alignParentLeft="true"
+                 android:layout_alignParentTop="true"
+                 android:layout_marginLeft="21dp"
+                 android:background="@drawable/white_circilraunded"
+                 android:gravity="center"
+                 android:text="3"
+                 android:textColor="@color/white"
+                 android:textSize="@dimen/textsize3" />
+
+             <TextView
+                 android:id="@+id/raund3"
+                 android:layout_width="@dimen/height2"
+                 android:layout_height="@dimen/height2"
+                 android:layout_alignParentTop="true"
+                 android:layout_marginLeft="23dp"
+                 android:layout_toRightOf="@+id/raund1"
+                 android:background="@drawable/circilraunded"
+                 android:gravity="center"
+                 android:text="6"
+                 android:textColor="@color/white"
+                 android:textSize="@dimen/textsize3" />
+
+         </RelativeLayout>
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="@dimen/padding2"
+   android:layout_weight="1"
+   android:weightSum="2"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/imageButton1"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="@dimen/tab_hight"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="@dimen/padding2"
+        android:layout_alignParentTop="true"
+      
+        android:background="@drawable/dialogradius"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/calicon" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/padding4"
+            android:layout_marginRight="18dp"
+            android:gravity="center"
+            android:text="28/01/91"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+       android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/padding2"
+        android:layout_height="@dimen/tab_hight"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/dialogradius"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/timeicon" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/padding4"
+            android:layout_marginRight="18dp"
+            android:gravity="center"
+            android:text="11:00"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize3" />
+    </LinearLayout>
+
+</LinearLayout>
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:layout_marginTop="@dimen/padding4"
+    android:gravity="center"
+    >
+<TextView 
+    android:id="@+id/searchnow"
+        android:layout_width="@dimen/imgHightwidth1"
+        android:layout_height="@dimen/height2"
+        android:text="SEARCH NOW"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="@dimen/textsize3"
+        android:background="@drawable/button_style2"
+        />
+</LinearLayout>
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/tab_hight"
+    ></LinearLayout>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
+
+</RelativeLayout>

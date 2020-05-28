@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+   android:gravity="center"
+  android:background="@drawable/bkimg"
+    tools:context="com.ad.app.ad.SplashActivity" >
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bkimg"
+    android:orientation="vertical"
+    >
+
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingBottom="@dimen/padding2"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/imgHightwidth2"
+            android:gravity="center"
+            android:background="#0000ffff"
+            android:orientation="vertical" >
+
+            <com.mwo.app.OvalImageView
+                android:id="@+id/imageView1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_launcher" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/padding3"
+            android:background="@drawable/sdo" />
+    </LinearLayout>
+
+    <EditText 
+        android:id="@+id/name"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/register__edit_text"
+    android:background="@drawable/dialogradius"
+    android:hint="name"
+    android:singleLine="true"
+    android:textColor="@color/black"
+   
+    android:layout_margin="@dimen/padding1"
+    android:paddingLeft="@dimen/padding3"
+    />
+
+    <EditText
+         android:id="@+id/address"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/register__edit_text"
+        android:layout_margin="@dimen/padding1"
+        android:layout_marginTop="@dimen/height1"
+        android:background="@drawable/dialogradius"
+        android:ems="10"
+           android:textColor="@color/black"
+        android:hint="Address "
+    android:singleLine="true"
+        android:paddingLeft="@dimen/padding3" />
+
+    <EditText 
+         android:id="@+id/mob"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/register__edit_text"
+    android:background="@drawable/dialogradius"
+    android:hint="Mobile"
+       android:textColor="@color/black"
+android:singleLine="true"
+    android:layout_margin="@dimen/padding1"
+    android:paddingLeft="@dimen/padding3"
+    />
+    <EditText 
+         android:id="@+id/mail"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/register__edit_text"
+    android:background="@drawable/dialogradius"
+    android:hint="Email "
+    android:inputType="textMultiLine"
+       android:textColor="@color/black"
+    android:layout_margin="@dimen/padding1"
+    android:paddingLeft="@dimen/padding3"
+    />
+    <EditText 
+         android:id="@+id/pass"
+    android:layout_width="fill_parent"
+       android:textColor="@color/black"
+    android:layout_height="@dimen/register__edit_text"
+    android:background="@drawable/dialogradius"
+    android:hint="password "
+   android:singleLine="true"
+   android:inputType="textPassword"
+    android:layout_margin="@dimen/padding1"
+    android:paddingLeft="@dimen/padding3"
+    />
+    <TextView 
+    android:id="@+id/regNow"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/height2"
+        android:text="Signup"
+         android:layout_margin="@dimen/padding1"
+    android:paddingLeft="@dimen/padding3"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="@dimen/textsize3"
+        android:background="@drawable/button_style2"
+        />
+</LinearLayout>
+
+</RelativeLayout>
